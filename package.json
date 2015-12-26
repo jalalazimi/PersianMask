@@ -5,16 +5,6 @@
   "homepage": "https://github.com/jalalazimi/PersianMask.js",
   "author": "Jalal Azimi <jalalazimi@gmail.com> (http://jalalazimi.me/)",
   "contributors": "Jalal Azimi (http://jalalazimi.me/)",
-  "keywords": [
-    "persian",
-    "farsi",
-    "number",
-    "english",
-    "culture",
-    "localization",
-    "input",
-    "mask"
-  ],
   "main": "./persianMask.js",
   "engines": {
     "node": "*"
