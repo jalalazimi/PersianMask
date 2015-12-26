@@ -6,9 +6,6 @@
   "author": "Jalal Azimi <jalalazimi@gmail.com> (http://jalalazimi.me/)",
   "contributors": "Jalal Azimi (http://jalalazimi.me/)",
   "main": "./persianMask.js",
-  "engines": {
-    "node": "*"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jalalazimi/PersianMask.git"
@@ -19,7 +16,6 @@
   "scripts": {
     "test": "make test"
   },
-  "ender": "./ender.js",
   "dependencies": {
     "mocha": "^2.3.4"
   }
