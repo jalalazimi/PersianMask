@@ -25,8 +25,6 @@
         "type": "git",
         "url": "https://github.com/jalalazimi/PersianMask.git"
     },
-    "bugs": {
-    },
     "licenses" : [
         {
             "type" : "MIT"
