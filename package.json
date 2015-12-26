@@ -1,0 +1,42 @@
+{
+    "name": "persianMask",
+    "version": "0.1.0",
+    "description": "Persian Number mask.",
+    "homepage": "https://github.com/jalalazimi/PersianMask.js",
+    "author": "Jalal Azimi <jalalazimi@gmail.com> (http://jalalazimi.me/)",
+    "contributors": [
+        "Jalal Azimi (http://jalalazimi.me/)",
+    ],
+    "keywords": [
+        "persian",
+        "farsi",
+        "number",
+        "english",
+        "culture",
+        "localization",
+        "input",
+        "mask"
+    ],
+    "main": "./persianMask.js",
+    "engines": {
+        "node": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jalalazimi/PersianMask.git"
+    },
+    "bugs": {
+    },
+    "licenses" : [
+        {
+            "type" : "MIT"
+        }
+    ],
+    "devDependencies": {
+        "mocha": "*"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "ender": "./ender.js"
+}
