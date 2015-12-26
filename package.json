@@ -14,7 +14,7 @@
     "type": "MIT"
   },
   "scripts": {
-    "test": "make test"
+    "test": "mocha"
   },
   "dependencies": {
     "mocha": "^2.3.4"
