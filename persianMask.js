@@ -12,11 +12,11 @@
         //Check for nodeJS
         hasModule = (typeof module !== 'undefined' && module.exports);
 
-    //PersianJs main function/constructor, used for prototype.
+    //used for prototype.
     function PersianMask(str) {
         this._str = str;
     }
-
+    
     /**
      * Used for set comma
      *
@@ -70,17 +70,17 @@
 
 
 
-    var persianMask = function (inputStr) {
-        if (inputStr == "" || inputStr == null) {
-            return null;
-        }
-        return new PersianMask(inputStr);
+
+
+    var persianMask = function (inputValue) {
+        if (inputValue == "" || inputValue == null)
+        	return null;
+        return new PersianMask(inputValue);
     }
 
-    //Version
+    //persianMask Version
     persianMask.version = VERSION;
 
-    //Prototype
     persianMask.fn = PersianMask.prototype = {
         clone: function () {
             return persianMask(this);
@@ -100,16 +100,12 @@
         }
     };
 
-    //Expose persianMask
-    //CommonJS module is defined
+    //CommonJS module
     if (hasModule) {
         module.exports = persianMask;
     }
     //global ender:false
     if (typeof ender === 'undefined') {
-        // here, `this` means `window` in the browser, or `global` on the server
-        // add `persianMask` as a global object via a string identifier,
-        // for Closure Compiler "advanced" mode
         this['persianMask'] = persianMask;
     }
     //global define:false
