@@ -83,7 +83,7 @@
      * Used for return Array Index
      *
      * @param {String} value
-     * @return {String} Returns array Index
+     * @return {Number} Returns array Index
      * @api private
      */
     function _ArrayIndex(array, value) {
@@ -95,7 +95,7 @@
      * Used for search in Array and replace
      *
      * @param {String} value
-     * @param {String} array index
+     * @param {Number} array index
      * @param {String} new value
      * @return {String} Returns replaced value
      * @api private
