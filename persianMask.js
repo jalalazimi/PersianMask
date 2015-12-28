@@ -23,8 +23,8 @@
 
 
     //used for prototype.
-    function PersianMask(str) {
-        this._str = str;
+    function PersianMask(value) {
+        this._val = value;
     }
 
     /**
@@ -117,18 +117,8 @@
     persianMask.version = VERSION;
 
     persianMask.fn = PersianMask.prototype = {
-        clone: function() {
-            return persianMask(this);
-        },
-        value: function() {
-            return this._str;
-        },
         toString: function() {
-            return this._str.toString();
-        },
-        set: function(value) {
-            this._str = String(value);
-            return this;
+            return this._val.toString();
         },
         setComma: function() {
             return _setComma(this);
